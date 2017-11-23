@@ -154,11 +154,11 @@ class BinaryTree{
 		}
 
 
-        //Chech whether it is a max heap
+        //Check whether it is a max heap
 		bool HasHeapProperty(BinaryTreeNode<T> *node){
             if (node) {
                 BinaryTreeNode<T> *leftChild,*rightChild;
-                bool l,r;
+                bool l=true,r=true;
                 
                 if (node->left) {
                     leftChild=node->left;

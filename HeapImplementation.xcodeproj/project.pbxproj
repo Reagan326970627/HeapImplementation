@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		88B412351FC4BD6F00A0D7CD /* q3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88B412341FC4BD6F00A0D7CD /* q3.cpp */; };
+		88EF75671FC779EE003AF5A1 /* q4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88EF75661FC779EE003AF5A1 /* q4.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +25,11 @@
 /* Begin PBXFileReference section */
 		88B412291FC4B46D00A0D7CD /* HeapImplementation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HeapImplementation; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B412331FC4B50D00A0D7CD /* binarytree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = binarytree.h; sourceTree = "<group>"; };
-		88B412341FC4BD6F00A0D7CD /* q3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = q3.cpp; sourceTree = "<group>"; };
 		88B412361FC4BDA300A0D7CD /* lqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lqueue.h; sourceTree = "<group>"; };
 		88B412371FC4BDC700A0D7CD /* node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = node.h; sourceTree = "<group>"; };
 		88B412381FC4BE7F00A0D7CD /* xcept.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xcept.h; sourceTree = "<group>"; };
+		88EF75651FC779EE003AF5A1 /* maxheap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maxheap.h; sourceTree = "<group>"; };
+		88EF75661FC779EE003AF5A1 /* q4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = q4.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +65,8 @@
 				88B412381FC4BE7F00A0D7CD /* xcept.h */,
 				88B412371FC4BDC700A0D7CD /* node.h */,
 				88B412361FC4BDA300A0D7CD /* lqueue.h */,
-				88B412341FC4BD6F00A0D7CD /* q3.cpp */,
+				88EF75651FC779EE003AF5A1 /* maxheap.h */,
+				88EF75661FC779EE003AF5A1 /* q4.cpp */,
 				88B412331FC4B50D00A0D7CD /* binarytree.h */,
 			);
 			path = HeapImplementation;
@@ -127,7 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88B412351FC4BD6F00A0D7CD /* q3.cpp in Sources */,
+				88EF75671FC779EE003AF5A1 /* q4.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
